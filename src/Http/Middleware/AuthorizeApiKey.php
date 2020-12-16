@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class AuthorizeApiKey
 {
-    const AUTH_HEADER = 'X-Authorization';
+    const AUTH_HEADER = 'X-API-KEY';
 
     /**
      * Handle the incoming request
